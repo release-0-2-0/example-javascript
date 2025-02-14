@@ -1,4 +1,4 @@
-name: Run on All Branchess
+name: Run on All Branches
 
 on:
   push:
