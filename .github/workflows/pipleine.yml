@@ -36,7 +36,7 @@ jobs:
       # run the pipeline scan action
       - name: pipeline-scan action step
         id: pipeline-scan
-        uses: veracode/Veracode-pipeline-scan-action@v1.0.12
+        uses: veracode/Veracode-pipeline-scan-action@brand_logo
         with:
           vid: 'd7956013db5160e796033b7ff53e70e5'
           vkey: '48c52db689cde8468a270b0989ccbfb65c0dee4ff84cad4d2f3c2f25a5326a7f61d236677e267ce05e782a267746feb445ffe508000e482fd20a14262ee8a450'
