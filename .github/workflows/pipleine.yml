@@ -1,0 +1,19 @@
+name: Run on All Branches
+
+on:
+  push:
+    branches:    
+      - '*'  # Run on all branches
+  pull_request:
+    branches:
+      - '*'  # Run on all branches
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Run a sample script
+        run: echo "This runs on all branches!"
